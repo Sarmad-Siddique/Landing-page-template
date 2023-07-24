@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    
+}
+
+nav {
+    background-color: #1F2937;
+    color: white;
+    height: 60px;
+    
+}
+
+.placeholder {
+    height: 150px;
+    flex: 1 1 100px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+.hero-container {
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 50px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 700px;
+    max-height: 300px;
+}
+
+.quote .ref {
+    font-size: 18px;
+    text-align: right;
+    font-weight: 900;
+}
+.quote p {
+    color: #3f4a58;
+}
+
+.info-elem {
+    max-width: 150px;
+    max-height: 200px;
+    text-align: center;
+    
+}
+
+ul {
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    flex: 1;
+    font-size: large;
+}
+
+#logo {
+    margin-right: auto;
+    font-weight: 1000;
+    font-size: larger;
+    flex: 1;
+}
+
+.left {
+    max-width: 500px;
+    max-height: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    max-width: 500px;
+    max-height: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+#hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+#hero-para {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
